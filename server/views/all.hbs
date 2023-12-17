@@ -1,0 +1,8 @@
+<ul class="list-group">
+  {{#each blogs}}
+    <a href="/blog/{{id}}" class="list-group-item">{{title}}</a>
+  {{/each}}
+</ul>
+<a type="button" class="btn btn-default btn-primary" href="/blog/new">
+  New post
+</a>

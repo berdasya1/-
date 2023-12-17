@@ -1,0 +1,19 @@
+<form class="form" action="/blog/{{id}}?_method=PUT" method="post">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input value="{{title}}" type="text" class="form-control" id="title" placeholder="Enter a post" name="title">
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea value="{{description}}" type="text" class="form-control" id="description" placeholder="Enter a description" name="description">
+    </textarea>
+  </div>
+  <div class="form-group">
+    <label for="author">Author of post</label>
+        <textarea value="{{author}}" type="text" class="form-control" id="author" placeholder="Enter a author" name="author">
+    </textarea>
+  </div>
+  <button type="submit" class="btn btn-default btn-danger">
+    Update
+  </button>
+</form>
