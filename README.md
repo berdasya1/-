@@ -10,3 +10,4 @@ http://localhost:5000 - start page
 http://localhost:5000/blog/ - main page
 http://localhost:5000/blog/new - create a new post# -
 # -
+# -
